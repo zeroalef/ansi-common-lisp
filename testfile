@@ -1,7 +1,0 @@
-Date and time %input is accepted in almost any reasonable format,
-including ISO ~%8601, SQL-compatible, traditional POSTGRES, and others.
-For some formats, ordering of day, month, and year in date input is
-ambiguous and there is support for specifying the expected ordering
-of these fields. Set the DateStyle parameter to MDY to select month-day-year
-interpretation, DMY to select day-month-year interpretation, or YMD
-to select year-month-day interpretation.
