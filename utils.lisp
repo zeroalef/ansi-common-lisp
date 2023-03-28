@@ -1,3 +1,8 @@
+(defun add1 (x) (+ x 1))
+(defun sub1 (x) (- x 1))
+(defun square (x) (* x x))
+
+
 (defun range (end &optional
                     (optional-end 0 optend-supplied-p)
                     (increase 1))

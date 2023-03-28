@@ -35,7 +35,8 @@
 
 (defun buf-flush (b str)
   (do ((i (1+ (buf-used b)) (1+ i)))
-      ((> i (buf-end b)))
+      ((> i (;; buf-end b
+                     buf-reset b)))
     (princ (bref b i) str)))
 
 
